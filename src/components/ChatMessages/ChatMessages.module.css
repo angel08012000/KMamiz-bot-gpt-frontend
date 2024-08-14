@@ -1,0 +1,107 @@
+.container {
+  background-color: #c8c8dc;
+  overflow-y: auto;
+  padding: 16px;
+  flex-grow: 1;
+}
+
+.message {
+  display: flex;
+}
+
+.systemMessage {
+  align-items: center;
+  flex-direction: row;
+}
+
+.userMessage {
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.avatar {
+  width: 18px;
+  height: 18px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.systemAvatar {
+  color: #ffffff;
+  background-color: #8da3f3;
+}
+
+.userAvatar {
+  color: #1f1f1f;
+}
+
+.text {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.systemText {
+  color: #ffffff;
+  background-color: #8da3f3;
+}
+
+.userText {
+  color: #1f1f1f;
+  background-color: #ffffff;
+}
+
+.button_click {
+  margin: 4px;
+  padding: 8px;
+  background-color: #686699;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.button_submit {
+  margin: 4px;
+  padding: 8px;
+  background-color: #686699;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.button {
+  margin: 4px;
+  padding: 8px;
+  background-color: #ffffff;
+  color: #686699;
+  border: none;
+  cursor: pointer;
+}
+
+img{
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse; /* 合併邊框模型 */
+  width: 100%;
+}
+
+thead {
+  background-color: #788bcf;
+  font-weight: bold;
+}
+
+th, td {
+  border: 1px solid white; /* 設定邊框為白色 */
+  padding: 8px; /* 設定內邊距 */
+  text-align: center; /* 文字靠左對齊 */
+}
+
+th {
+  background-color: #f2f2f2; /* 設定標題行的背景顏色 */
+}
